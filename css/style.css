@@ -1,11 +1,24 @@
 /*---GLOBAL STYLES---*/
 body {
+  background-color: #F2EBEA;
   font-family: 'Hind', sans-serif;
+}
+
+h1 {
+  text-align: center;
 }
 
 .container {
   padding-top: 20px;
 }
+
+/*--NAVBAR--*/
+.navbar-default {
+  background-color: #FCF7F4;
+  border-color: #FCF7F4;
+}
+
+/*--FORM--*/
 
 textarea.form-control {
   resize: none;
