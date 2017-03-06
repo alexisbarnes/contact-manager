@@ -14,7 +14,9 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+
   </head>
 
   <body>
@@ -37,6 +39,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/index.php">All Contacts</a></li>
             <li><a href="/new.php">New Contact</a></li>
+            <li><a href="/style.php">Style Guide</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
