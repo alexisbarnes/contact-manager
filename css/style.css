@@ -1,6 +1,6 @@
 /*---GLOBAL STYLES---*/
 body {
-  background-color: #F2EBEA;
+  background-color: #F2F2F2;
   font-family: 'Hind', sans-serif;
 }
 
@@ -12,10 +12,23 @@ h1 {
   padding-top: 20px;
 }
 
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
 /*--NAVBAR--*/
 .navbar-default {
-  background-color: #FCF7F4;
-  border-color: #FCF7F4;
+  background-color: #000;
+  border-color: #000;
+}
+
+/*--PAGE STYLES--*/
+.page-header {
+  font-size: 60px;
 }
 
 /*--FORM--*/

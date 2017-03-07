@@ -8,102 +8,119 @@
 
 <form method="POST" action="/create.php">
 
-  <div class="form-group">
-    <label for="contact_first">First Name</label>
-    <input class="form-control" type="text" name="first" id="contact_first" value="" placeholder="First Name" />
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="form-group">
+      <label for="contact_first">First Name</label>
+      <input class="form-control" type="text" name="first" id="contact_first" value="" placeholder="First Name" />
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="contact_last">Last Name</label>
-    <input class="form-control" type="text" name="last" id="contact_last" value="" placeholder="Last Name" />
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="form-group">
+      <label for="contact_last">Last Name</label>
+      <input class="form-control" type="text" name="last" id="contact_last" value="" placeholder="Last Name" />
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="contact_title">Title</label>
-    <input class="form-control" type="text" name="title" id="contact_title" value="" placeholder="Title" />
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="form-group">
+      <label for="contact_title">Title</label>
+      <input class="form-control" type="text" name="title" id="contact_title" value="" placeholder="Title" />
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="contact_address">Address</label>
-    <input class="form-control" type="text" name="address" id="contact_address" value="" placeholder="Address" />
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="form-group">
+      <label for="contact_address">Address</label>
+      <input class="form-control" type="text" name="address" id="contact_address" value="" placeholder="Address" />
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="contact_city">City</label>
-    <input class="form-control" type="text" name="city" id="contact_city" value="" placeholder="City" />
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="form-group">
+      <label for="contact_city">City</label>
+      <input class="form-control" type="text" name="city" id="contact_city" value="" placeholder="City" />
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="contact_state">State</label>
-    <select name="state" id="contact_state" value="AL" class="form-control">
-      <option value="AL" selected>AL</option>
-      <option value="AK">AK</option>
-      <option value="AZ">AZ</option>
-      <option value="AR">AR</option>
-      <option value="CA">CA</option>
-      <option value="CO">CO</option>
-      <option value="CT">CT</option>
-      <option value="DE">DE</option>
-      <option value="FL">FL</option>
-      <option value="GA">GA</option>
-      <option value="HI">HI</option>
-      <option value="ID">ID</option>
-      <option value="IL">IL</option>
-      <option value="IN">IN</option>
-      <option value="IA">IA</option>
-      <option value="KS">KS</option>
-      <option value="KY">KY</option>
-      <option value="LA">LA</option>
-      <option value="ME">ME</option>
-      <option value="MD">MD</option>
-      <option value="MA">MA</option>
-      <option value="MI">MI</option>
-      <option value="MN">MN</option>
-      <option value="MS">MS</option>
-      <option value="MO">MO</option>
-      <option value="MT">MT</option>
-      <option value="NE">NE</option>
-      <option value="NV">NV</option>
-      <option value="NH">NH</option>
-      <option value="NJ">NJ</option>
-      <option value="NM">NM</option>
-      <option value="NY">NY</option>
-      <option value="NC">NC</option>
-      <option value="ND">ND</option>
-      <option value="OH">OH</option>
-      <option value="OK">OK</option>
-      <option value="OR">OR</option>
-      <option value="PA">PA</option>
-      <option value="RI">RI</option>
-      <option value="SC">SC</option>
-      <option value="SD">SD</option>
-      <option value="TN">TN</option>
-      <option value="TX">TX</option>
-      <option value="UT">UT</option>
-      <option value="VT">VT</option>
-      <option value="VA">VA</option>
-      <option value="WA">WA</option>
-      <option value="WV">WV</option>
-      <option value="WI">WI</option>
-      <option value="WY">WY</option>
-    </select>
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="form-group">
+      <label for="contact_state">State</label>
+      <select name="state" id="contact_state" value="AL" class="form-control">
+        <option value="AL" selected>Alabama</option>
+        <option value="AK">Alaska</option>
+        <option value="AZ">Arizona</option>
+        <option value="AR">Arkansas</option>
+        <option value="CA">California</option>
+        <option value="CO">Colorado</option>
+        <option value="CT">Connecticut</option>
+        <option value="DE">Delaware</option>
+        <option value="FL">Florida</option>
+        <option value="GA">Georgia</option>
+        <option value="HI">Hawaii</option>
+        <option value="ID">Idaho</option>
+        <option value="IL">Illinois</option>
+        <option value="IN">Indiana</option>
+        <option value="IA">Iowa</option>
+        <option value="KS">Kansas</option>
+        <option value="KY">Kentucky</option>
+        <option value="LA">Louisiana</option>
+        <option value="ME">Maine</option>
+        <option value="MD">Maryland</option>
+        <option value="MA">Massachusetts</option>
+        <option value="MI">Michigan</option>
+        <option value="MN">Minnesota</option>
+        <option value="MS">Mississippi</option>
+        <option value="MO">Missouri</option>
+        <option value="MT">Montana</option>
+        <option value="NE">Nebraska</option>
+        <option value="NV">Nevada</option>
+        <option value="NH">New Hampshire</option>
+        <option value="NJ">New Jersey</option>
+        <option value="NM">New Mexico</option>
+        <option value="NY">New York</option>
+        <option value="NC">North Carolina</option>
+        <option value="ND">North Dakota</option>
+        <option value="OH">Ohio</option>
+        <option value="OK">Oklahoma</option>
+        <option value="OR">Oregon</option>
+        <option value="PA">Pennsylvania</option>
+        <option value="RI">Rhode Island</option>
+        <option value="SC">South Carolina</option>
+        <option value="SD">South Dakota</option>
+        <option value="TN">Tennessee</option>
+        <option value="TX">Texas</option>
+        <option value="UT">Utah</option>
+        <option value="VT">Vermont</option>
+        <option value="VA">Virginia</option>
+        <option value="WA">Washington</option>
+        <option value="WV">West Virginia</option>
+        <option value="WI">Wisconsin</option>
+        <option value="WY">Wyoming</option>
+      </select>
+    </div>
   </div>
 
 
-
-  <div class="form-group">
-    <label for="contact_zip">Zip Code</label>
-    <input class="form-control" type="text" name="zip" id="contact_zip" value="" placeholder="Zip Code" />
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="form-group">
+      <label for="contact_zip">Zip Code</label>
+      <input class="form-control" type="text" name="zip" id="contact_zip" value="" placeholder="Zip Code" />
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="contact_phone">Phone Number</label>
-    <input class="form-control" type="text" name="phone" id="contact_phone" value="" placeholder="Phone Number" />
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="form-group">
+      <label for="contact_phone">Phone Number</label>
+      <input class="form-control" type="text" name="phone" id="contact_phone" value="" placeholder="Phone Number" />
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="contact_notes">Notes</label>
-    <input class="form-control" type="text" name="notes" id="contact_notes" value="" placeholder="Notes" />
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="form-group">
+      <label for="contact_notes">Notes</label>
+      <input class="form-control" type="text" name="notes" id="contact_notes" value="" placeholder="Notes" />
+    </div>
   </div>
 
   <button class="btn btn-primary">Create New Contact</button>

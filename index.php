@@ -29,7 +29,7 @@
 
 <h1>Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
   <!-- Table -->
-  <table class="table table-hover">
+  <table class="table table-hover table-bordered">
     <thead class="thead-inverse">
       <th>ID</th>
       <th>First Name</th>
