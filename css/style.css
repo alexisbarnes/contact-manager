@@ -24,3 +24,13 @@ textarea.form-control {
   resize: none;
   height: 150px;
 }
+
+/*--ICONS--*/
+.edit-icon {
+  height: 15px;
+}
+
+.delete-icon {
+  height: 15px;
+  margin: 5px;
+}

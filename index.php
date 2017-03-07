@@ -27,7 +27,7 @@
 <?php endif; ?>
 
 
-<h1>All Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
+<h1>Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
   <!-- Table -->
   <table class="table table-hover">
     <thead class="thead-inverse">
@@ -41,6 +41,7 @@
       <th>Zip Code</th>
       <th>Phone Number</th>
       <th>Notes</th>
+      <th>Actions</th>
     </thead>
     <tbody>
       <?php foreach($contacts as $contact) : ?>
@@ -56,8 +57,8 @@
         <td><?= $contact['phone']; ?></td>
         <td><?= $contact['notes']; ?></td>
         <td>
-          <a href="/edit.php?id=<?= $contact['id']; ?>"><img src="icons/pencil.png" alt="edit"></a>
-          <a href="/delete.php?id<?= $contact['id']; ?>"><img src="icons/x.png" alt="delete"></a>
+          <a href="/edit.php?id=<?= $contact['id']; ?>"><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
+          <a href="/delete.php?id=<?= $contact['id']; ?>"><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a>
         </td>
       </tr>
       <?php endforeach; ?>
