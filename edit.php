@@ -13,16 +13,16 @@
 
 <?php if (array_key_exists('updated', $_GET)) : ?>
 <div class="alert alert-success">
-  <p><strong>Update successful!</strong>. Your task was updated.</p>
+  <p><strong>Update successful!</strong>. Your contact was updated.</p>
 </div>
 <?php endif; ?>
 
-<a href="/delete.php?id<? $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a>
+<a href="/delete.php?id=<? $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a>
 
 <h1>Edit Contact</h1>
 
 <form method="POST" action="/update.php">
-  <input type="hidden" name="id" id="task_id" value="<?= $contact['id']; ?>" />
+  <input type="hidden" name="id" id="contact_id" value="<?= $contact['id']; ?>" />
 
   <div class="form-group">
     <label for="contact_first">First Name</label>
