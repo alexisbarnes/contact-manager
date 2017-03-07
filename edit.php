@@ -17,7 +17,7 @@
 </div>
 <?php endif; ?>
 
-<a href="/delete.php?id=<? $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a>
+<a href="/delete.php?id=<?= $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a>
 
 <h1>Edit Contact</h1>
 
