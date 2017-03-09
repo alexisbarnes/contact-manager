@@ -123,7 +123,7 @@
     </div>
   </div>
 
-  <button class="btn btn-primary">Create New Contact</button>
+  <button class="btn btn-primary">Create</button>
 </form>
 
 <?php include 'footer.php'; ?>

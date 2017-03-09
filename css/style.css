@@ -28,21 +28,28 @@ h1 {
 
 /*--NAVBAR--*/
 .navbar-default {
-  background-color: #FFD9BA;
-  border-color: #FFD9BA;
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #7F746B;
+  color: #474747;
 }
 
 .navbar-default .navbar-brand {
-  color: #7F746B;
+  color: #474747;
 }
 
 /*--PAGE STYLES--*/
 .page-header {
   font-size: 60px;
+}
+
+/*--ALERT INFO--*/
+.alert-info {
+    color: #7F746B;
+    background-color: #FFCAA1;
+    border-color: #FFCAA1;
 }
 
 /*--FORM--*/
@@ -66,6 +73,8 @@ textarea.form-control {
 .btn-primary {
   background-color: #4DA5B2;
   border-color: #4DA5B2;
+  float: right;
+  margin-right: 15px;
 }
 
 .btn-primary:hover {
@@ -108,7 +117,7 @@ textarea.form-control {
 
 /*--FOOTER--*/
 footer {
-  background-color: #FFD9BA;
+  background-color: #CCCCCC;
   height: 50px;
   margin-top: 50px;
 }

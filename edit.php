@@ -139,7 +139,7 @@
   </div>
 
 
-  <button class="btn btn-primary">Save Task</button>
+  <button class="btn btn-primary">Save</button>
 </form>
 
 <?php include 'footer.php'; ?>
