@@ -1,6 +1,11 @@
 /*---GLOBAL STYLES---*/
+html {
+  height: 100%;
+}
+
 body {
-  background-color: #F2F2F2;
+  height: 100%;
+  background-color: #FFF;
   font-family: 'Hind', sans-serif;
 }
 
@@ -10,6 +15,7 @@ h1 {
 
 .container {
   padding-top: 20px;
+  min-height: 100%;
 }
 
 .align-center {
@@ -22,16 +28,16 @@ h1 {
 
 /*--NAVBAR--*/
 .navbar-default {
-  background-color: #FFBE8A;
-  border-color: #FFBE8A;
+  background-color: #FFD9BA;
+  border-color: #FFD9BA;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #000;
+  color: #7F746B;
 }
 
 .navbar-default .navbar-brand {
-  color: #000;
+  color: #7F746B;
 }
 
 /*--PAGE STYLES--*/
@@ -54,4 +60,59 @@ textarea.form-control {
 .delete-icon {
   height: 15px;
   margin: 5px;
+}
+
+/*--BUTTONS--*/
+.btn-primary {
+  background-color: #4DA5B2;
+  border-color: #4DA5B2;
+}
+
+.btn-primary:hover {
+  background-color: #50797F;
+  border-color: #50797F;
+}
+
+.btn {
+  font-size: 20px;
+}
+
+/*--FLOATING + ON MOBILE--*/
+#floating-button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #4DA5B2;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px #666;
+}
+
+.plus {
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 64px;
+  font-size: 38px;
+  font-weight: 300;
+}
+
+/*--FOOTER--*/
+footer {
+  background-color: #FFD9BA;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.no-padding {
+  padding: 0;
 }

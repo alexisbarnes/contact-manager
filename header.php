@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/index.php">Contacts Manager</a>
+          <a class="navbar-brand" href="/index.php">Contact Manager</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -45,6 +45,7 @@
       </div><!-- /.container-fluid -->
     </nav>
 
+    <div class="container">
       <div class="row">
 
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

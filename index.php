@@ -29,17 +29,18 @@
 
 <h1>Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
   <!-- Table -->
+  <div class="table-responsive">
   <table class="table table-hover table-bordered">
     <thead class="thead-inverse">
       <th>First Name</th>
       <th>Last Name</th>
-      <th>Title</th>
-      <th>Address</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Zip Code</th>
+      <th class="visible-sm visible-md visible-lg visible-lg">Title</th>
+      <th class="visible-md visible-lg visible-lg">Address</th>
+      <th class="visible-md visible-lg visible-lg">City</th>
+      <th class="visible-md visible-lg visible-lg">State</th>
+      <th class="visible-md visible-lg visible-lg">Zip Code</th>
       <th>Phone Number</th>
-      <th>Notes</th>
+      <th class="visible-md visible-lg visible-lg">Notes</th>
       <th>Actions</th>
     </thead>
     <tbody>
@@ -47,13 +48,13 @@
       <tr>
         <td><?= $contact['first']; ?></td>
         <td><?= $contact['last']; ?></td>
-        <td><?= $contact['title']; ?></td>
-        <td><?= $contact['address']; ?></td>
-        <td><?= $contact['city']; ?></td>
-        <td><?= $contact['state']; ?></td>
-        <td><?= $contact['zip']; ?></td>
+        <td class="visible-sm visible-md visible-lg visible-lg"><?= $contact['title']; ?></td>
+        <td class="visible-md visible-lg visible-lg"><?= $contact['address']; ?></td>
+        <td class="visible-md visible-lg visible-lg"><?= $contact['city']; ?></td>
+        <td class="visible-md visible-lg visible-lg"><?= $contact['state']; ?></td>
+        <td class="visible-md visible-lg visible-lg"><?= $contact['zip']; ?></td>
         <td><?= $contact['phone']; ?></td>
-        <td><?= $contact['notes']; ?></td>
+        <td class="visible-md visible-lg visible-lg"><?= $contact['notes']; ?></td>
         <td>
           <a href="/edit.php?id=<?= $contact['id']; ?>"><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
           <a href="/delete.php?id=<?= $contact['id']; ?>"><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a>
@@ -62,6 +63,15 @@
       <?php endforeach; ?>
     </tbody>
   </table>
+</div>
+
+<!--Add New button for mobile-->
+<!--Source: https://codepen.io/simoberny/pen/pJZJQY-->
+  <div class="visible-xs visible-sm">
+    <div id="floating-button">
+      <a href="/new.php"><p class="plus">+</p></a>
+    </div>
+  </div>
 
 
 
