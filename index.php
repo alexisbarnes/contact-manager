@@ -31,7 +31,6 @@
   <!-- Table -->
   <table class="table table-hover table-bordered">
     <thead class="thead-inverse">
-      <th>ID</th>
       <th>First Name</th>
       <th>Last Name</th>
       <th>Title</th>
@@ -46,7 +45,6 @@
     <tbody>
       <?php foreach($contacts as $contact) : ?>
       <tr>
-        <td><a href="/edit.php?id=<?= $contact['id']; ?>"><?= $contact['id']; ?></a></td>
         <td><?= $contact['first']; ?></td>
         <td><?= $contact['last']; ?></td>
         <td><?= $contact['title']; ?></td>
@@ -64,6 +62,7 @@
       <?php endforeach; ?>
     </tbody>
   </table>
+
 
 
 

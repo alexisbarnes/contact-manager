@@ -22,8 +22,16 @@ h1 {
 
 /*--NAVBAR--*/
 .navbar-default {
-  background-color: #000;
-  border-color: #000;
+  background-color: #FFBE8A;
+  border-color: #FFBE8A;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
 }
 
 /*--PAGE STYLES--*/
