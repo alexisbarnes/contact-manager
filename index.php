@@ -26,10 +26,40 @@
   </div>
 <?php endif; ?>
 
+<?php foreach($contacts as $contact) : ?>
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+    <div class="contact-name">
+      <h5><?= $contact['first']; ?> <?=$contact['last']; ?>, <span class="text-muted"><?= $contact['title']; ?></span><a href="/edit.php?id=<?= $contact['id']; ?>"><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
+      <a href="/delete.php?id=<?= $contact['id']; ?>"><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a></h5>
 
-<h1>Contacts</h1>
-<h4 class="total-contacts">Total: <?= count($contacts); ?></h4>
-  <!-- Table -->
+    </div>
+
+
+
+
+  </div>
+
+  <!-- List group -->
+  <ul class="list-group">
+    <li class="list-group-item">
+      <span><?= $contact['title']; ?></span>
+      <span><?= $contact['address']; ?></span>
+      <span><?= $contact['city']; ?></span>
+      <span><?= $contact['state']; ?></span>
+      <span><?= $contact['zip']; ?></span>
+      <span><?= $contact['notes']; ?></span>
+      <span></span>
+      <span></span>
+    </li>
+  </ul>
+</div>
+<?php endforeach; ?>
+
+
+<!-- <h1>Contacts</h1>
+<h4 class="total-contacts"></h4>
   <div class="table-responsive">
     <table class="table table-hover table-bordered">
       <thead class="thead-inverse">
@@ -45,26 +75,24 @@
         <th class="table-header">Actions</th>
       </thead>
       <tbody>
-        <?php foreach($contacts as $contact) : ?>
         <tr>
-          <td><?= $contact['first']; ?></td>
-          <td><?= $contact['last']; ?></td>
-          <td class="visible-sm visible-md visible-lg visible-lg"><?= $contact['title']; ?></td>
-          <td class="visible-md visible-lg visible-lg"><?= $contact['address']; ?></td>
-          <td class="visible-md visible-lg visible-lg"><?= $contact['city']; ?></td>
-          <td class="visible-md visible-lg visible-lg"><?= $contact['state']; ?></td>
-          <td class="visible-md visible-lg visible-lg"><?= $contact['zip']; ?></td>
-          <td><?= $contact['phone']; ?></td>
-          <td class="visible-md visible-lg visible-lg"><?= $contact['notes']; ?></td>
+          <td></td>
+          <td></td>
+          <td class="visible-sm visible-md visible-lg visible-lg"></td>
+          <td class="visible-md visible-lg visible-lg"></td>
+          <td class="visible-md visible-lg visible-lg"></td>
+          <td class="visible-md visible-lg visible-lg"></td>
+          <td class="visible-md visible-lg visible-lg"></td>
+          <td></td>
+          <td class="visible-md visible-lg visible-lg"></td>
           <td>
-            <a href="/edit.php?id=<?= $contact['id']; ?>"><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
-            <a href="/delete.php?id=<?= $contact['id']; ?>"><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a>
+            <a href="/edit.php?id="><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
+            <a href="/delete.php?id="><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a>
           </td>
         </tr>
-        <?php endforeach; ?>
       </tbody>
     </table>
-  </div>
+  </div> -->
 
 <!--Add New button for mobile-->
 <!--Source: https://codepen.io/simoberny/pen/pJZJQY-->

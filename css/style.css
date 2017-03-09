@@ -57,10 +57,6 @@ a:hover {
   text-align: left;
 }
 
-/*--TEXT MUTED--*/
-.total-contacts {
-  text-align: right;
-}
 
 /*--NAVBAR--*/
 .navbar-default {
@@ -78,9 +74,19 @@ a:hover {
   font-size: 30px;
 }
 
+/*--TEXT MUTED--*/
+.text-muted {
+  font-size: 18px !important;
+  font-style: italic;
+}
+.total-contacts {
+  text-align: right;
+}
+
 /*--PAGE STYLES--*/
 .page-header {
   font-size: 60px;
+  border-bottom: none;
 }
 
 /*--ALERT INFO--*/
@@ -97,11 +103,7 @@ a:hover {
   border-color: #EAB6B6;
 }
 
-/*--TABLE HEADER--*/
-.table-header {
-  text-align: center;
-  font-size: 15px;
-}
+/*--PANEL STYLES--*/
 
 /*--FORM--*/
 
@@ -113,11 +115,13 @@ textarea.form-control {
 /*--ICONS--*/
 .edit-icon {
   height: 15px;
+  float: right;
 }
 
 .delete-icon {
   height: 15px;
   margin: 5px;
+  float: right;
 }
 
 /*--BUTTONS--*/
@@ -166,10 +170,93 @@ textarea.form-control {
   font-weight: 300;
 }
 
-/*--STYLE GUIDE--*/
+/*-----STYLE GUIDE------*/
 .style-h2 {
   border-bottom: 1px solid #ccc;
 }
+
+/*--COLORS--*/
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.box-white {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-image: linear-gradient(left top, #FFF 50%, #000 50%);
+  background-image: -o-linear-gradient(bottom right, #FFF 50%, #000 50%);
+  background-image: -moz-linear-gradient(bottom right, #FFF 50%, #000 50%);
+  background-image: -webkit-linear-gradient(bottom right, #FFF 50%, #000 50%);
+  background-image: -ms-linear-gradient(to bottom right, #FFF 50%, #000 50%);
+
+}
+
+.box-gray1 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.box-gray2 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #474747;
+  border-radius: 50%;
+}
+
+.box-teal {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #4da6b2;
+  border-radius: 50%;
+}
+
+.box-teal2 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #50797f;
+  border-radius: 50%;
+}
+
+.box-brown {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #7f746b;
+  border-radius: 50%;
+}
+
+.box-peach {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #ffcaa1;
+  border-radius: 50%;
+}
+
+.box-pink {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #eab6b6;
+  border-radius: 50%;
+}
+
+.box-red {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+  background-color: #730603;
+  border-radius: 50%;
+}
+
+
 
 /*--FOOTER--*/
 footer {

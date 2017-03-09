@@ -44,6 +44,58 @@
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <h2 class="style-h2">Colors</h2>
+
+    <div class="row margin-bottom">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-white">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-gray1">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-gray2">
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-bottom">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-teal">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-teal2">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-brown">
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-bottom">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-peach">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-pink">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-red">
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
