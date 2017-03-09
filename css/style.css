@@ -11,6 +11,8 @@ body {
 
 h1 {
   text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
 }
 
 .container {
@@ -26,6 +28,11 @@ h1 {
   text-align: left;
 }
 
+/*--TEXT MUTED--*/
+.total-contacts {
+  text-align: right;
+}
+
 /*--NAVBAR--*/
 .navbar-default {
   background-color: #CCCCCC;
@@ -37,7 +44,9 @@ h1 {
 }
 
 .navbar-default .navbar-brand {
-  color: #474747;
+  color: #4DA6B2;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
 }
 
 /*--PAGE STYLES--*/
@@ -47,9 +56,16 @@ h1 {
 
 /*--ALERT INFO--*/
 .alert-info {
-    color: #7F746B;
-    background-color: #FFCAA1;
-    border-color: #FFCAA1;
+  color: #7F746B;
+  background-color: #FFCAA1;
+  border-color: #FFCAA1;
+}
+
+/*--ALERT DANGER--*/
+.alert-danger {
+  color: #730603;
+  background-color: #EAB6B6;
+  border-color: #EAB6B6;
 }
 
 /*--FORM--*/

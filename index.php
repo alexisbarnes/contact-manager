@@ -27,7 +27,8 @@
 <?php endif; ?>
 
 
-<h1>Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
+<h1>Contacts</h1>
+<h4 class="total-contacts">Total: <?= count($contacts); ?></h4>
   <!-- Table -->
   <div class="table-responsive">
   <table class="table table-hover table-bordered">
