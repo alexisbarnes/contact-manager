@@ -33,16 +33,16 @@
   <div class="table-responsive">
   <table class="table table-hover table-bordered">
     <thead class="thead-inverse">
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th class="visible-sm visible-md visible-lg visible-lg">Title</th>
-      <th class="visible-md visible-lg visible-lg">Address</th>
-      <th class="visible-md visible-lg visible-lg">City</th>
-      <th class="visible-md visible-lg visible-lg">State</th>
-      <th class="visible-md visible-lg visible-lg">Zip Code</th>
-      <th>Phone Number</th>
-      <th class="visible-md visible-lg visible-lg">Notes</th>
-      <th>Actions</th>
+      <th class="table-header">First Name</th>
+      <th class="table-header">Last Name</th>
+      <th class="table-header visible-sm visible-md visible-lg visible-lg">Title</th>
+      <th class="table-header visible-md visible-lg visible-lg">Address</th>
+      <th class="table-header visible-md visible-lg visible-lg">City</th>
+      <th class="table-header visible-md visible-lg visible-lg">State</th>
+      <th class="table-header visible-md visible-lg visible-lg">Zip Code</th>
+      <th class="table-header">Phone Number</th>
+      <th class="table-header visible-md visible-lg visible-lg">Notes</th>
+      <th class="table-header">Actions</th>
     </thead>
     <tbody>
       <?php foreach($contacts as $contact) : ?>

@@ -7,7 +7,7 @@
 
   <div class="container-fluid no-padding">
     <footer>
-
+      <p>&copy; <a href="http://www.alexisbarnes.com" target="_blank">Alexis Barnes</a></p>
     </footer>
   </div>
 
