@@ -15,6 +15,10 @@ h1 {
   font-size: 60px;
 }
 
+.main-page-h1 {
+  padding-bottom: 20px;
+}
+
 h2 {
   font-size: 50px;
 }
@@ -32,16 +36,21 @@ h5 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 10px;
 }
 
-a {
+li {
+  font-size: 18px;
+}
 
+a {
+  color: #4da6b2
 }
 
 a:hover {
   text-decoration: none;
+  color: #474747;
 }
 
 .container {
@@ -155,11 +164,14 @@ textarea.form-control {
 
 .btn {
   font-size: 20px;
+
 }
 
 .btn-danger {
   background-color: #730603;
   border-color: #730603;
+  margin-top: 32px;
+  margin-right: 16px;
 }
 
 /*--FLOATING + ON MOBILE--*/
@@ -203,7 +215,7 @@ textarea.form-control {
 .box-white {
   height: 200px;
   width: 200px;
-  border: 2px solid #000;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
   border-radius: 50%;
   background-image: linear-gradient(left top, #FFF 50%, #000 50%);
   background-image: -o-linear-gradient(bottom right, #FFF 50%, #000 50%);
@@ -216,7 +228,7 @@ textarea.form-control {
 .box-gray1 {
   height: 200px;
   width: 200px;
-  border: 2px solid #000;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
   background-color: #ccc;
   border-radius: 50%;
 }
@@ -224,7 +236,7 @@ textarea.form-control {
 .box-gray2 {
   height: 200px;
   width: 200px;
-  border: 2px solid #000;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
   background-color: #474747;
   border-radius: 50%;
 }
@@ -232,7 +244,7 @@ textarea.form-control {
 .box-teal {
   height: 200px;
   width: 200px;
-  border: 2px solid #000;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
   background-color: #4da6b2;
   border-radius: 50%;
 }
@@ -240,40 +252,17 @@ textarea.form-control {
 .box-teal2 {
   height: 200px;
   width: 200px;
-  border: 2px solid #000;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
   background-color: #88B4BA;
   border-radius: 50%;
 }
 
-.box-brown {
-  height: 200px;
-  width: 200px;
-  border: 2px solid #000;
-  background-color: #7f746b;
-  border-radius: 50%;
-}
-
-.box-peach {
-  height: 200px;
-  width: 200px;
-  border: 2px solid #000;
-  background-color: #ffcaa1;
-  border-radius: 50%;
-}
-
-.box-pink {
-  height: 200px;
-  width: 200px;
-  border: 2px solid #000;
-  background-color: #eab6b6;
-  border-radius: 50%;
-}
 
 .box-red {
   height: 200px;
   width: 200px;
-  border: 2px solid #000;
-  background-color: #730603;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+  background-color: #870709;
   border-radius: 50%;
 }
 

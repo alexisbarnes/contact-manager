@@ -74,27 +74,11 @@
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-brown">
-        </div>
-      </div>
-    </div>
-
-    <div class="row margin-bottom">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-peach">
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-pink">
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
         <div class="box-red">
         </div>
       </div>
     </div>
+  </div>
 
   </div>
 </div>
@@ -102,6 +86,38 @@
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <h2 class="style-h2">Lists</h2>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <h4 class="align-center">Unordered List</h4>
+        <ul>
+          <li>This is the first item.</li>
+          <li>This is the second item.</li>
+          <li>This is the third item.</li>
+          <li>This is the fourth item.</li>
+          <li>This is the fifth item.</li>
+          <li>This is the sixth item.</li>
+          <li>This is the seventh item.</li>
+          <li>This is the eighth item.</li>
+          <li>This is the ninth item.</li>
+          <li>This is the tenth item.</li>
+        </ul>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <h4 class="align-center">Ordered List</h4>
+      <ol>
+        <li>This is the first item.</li>
+        <li>This is the second item.</li>
+        <li>This is the third item.</li>
+        <li>This is the fourth item.</li>
+        <li>This is the fifth item.</li>
+        <li>This is the sixth item.</li>
+        <li>This is the seventh item.</li>
+        <li>This is the eighth item.</li>
+        <li>This is the ninth item.</li>
+        <li>This is the tenth item.</li>
+      </ol>
+    </div>
   </div>
 </div>
 

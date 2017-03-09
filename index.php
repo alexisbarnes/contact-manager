@@ -26,6 +26,10 @@
   </div>
 <?php endif; ?>
 
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 main-page-h1">
+  <h1><?= count($contacts); ?> Contacts</h1>
+</div>
+
 <?php foreach($contacts as $contact) : ?>
 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
 <div class="panel panel-default">
