@@ -27,7 +27,7 @@
 <?php endif; ?>
 
 <?php foreach($contacts as $contact) : ?>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
 <div class="panel panel-default">
   <!-- Default panel contents -->
   <div class="panel-heading">
@@ -47,11 +47,33 @@
   <!-- List group -->
   <ul class="list-group">
     <li class="list-group-item">
-      <span>Address: <?= $contact['address']; ?></span><br>
-      <span>City: <?= $contact['city']; ?></span><br>
-      <span>State: <?= $contact['state']; ?></span><br>
-      <span>Zip Code: <?= $contact['zip']; ?></span><br>
-      <span>Notes: <?= $contact['notes']; ?></span>
+
+        <span>
+          <span class="panel-txt">Address:</span>
+          <span class="contact-info"><?= $contact['address']; ?></span>
+        </span><br>
+
+        <span>
+          <span class="panel-txt">City:</span>
+          <span class="contact-info"><?= $contact['city']; ?></span>
+        </span><br>
+
+
+        <span>
+          <span class="panel-txt">State:</span>
+          <span class="contact-info"><?= $contact['state']; ?></span>
+        </span><br>
+
+        <span>
+          <span class="panel-txt">Zip Code:</span>
+          <span class="contact-info"><?= $contact['zip']; ?></span>
+        </span><br>
+
+        <span>
+          <span class="panel-txt">Notes:</span>
+          <span class="contact-info"><?= $contact['notes']; ?></span>
+        </span>
+
 
     </li>
   </ul>

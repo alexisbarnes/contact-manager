@@ -78,6 +78,7 @@ a:hover {
 .text-muted {
   font-size: 18px !important;
   font-style: italic;
+  color: #474747;
 }
 .total-contacts {
   text-align: right;
@@ -103,12 +104,23 @@ a:hover {
   border-color: #EAB6B6;
 }
 
+
+
 /*--PANEL STYLES--*/
 .panel-default>.panel-heading {
-  background-color: #ccc;
+  background-color: #88B4BA;
 }
 .icons {
   float: right;
+}
+
+.panel-txt {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-info {
+  font-size: 16px;
 }
 
 /*--FORM--*/
@@ -143,6 +155,11 @@ textarea.form-control {
 
 .btn {
   font-size: 20px;
+}
+
+.btn-danger {
+  background-color: #730603;
+  border-color: #730603;
 }
 
 /*--FLOATING + ON MOBILE--*/
@@ -224,7 +241,7 @@ textarea.form-control {
   height: 200px;
   width: 200px;
   border: 2px solid #000;
-  background-color: #50797f;
+  background-color: #88B4BA;
   border-radius: 50%;
 }
 
