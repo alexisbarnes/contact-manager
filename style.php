@@ -3,18 +3,61 @@
   include 'header.php'
 
   ?>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h1 class="page-header">Style Guide</h1>
+  </div>
+</div>
 
-<h1 class="page-header">Style Guide</h1>
-<p class="align-center"><i>This is the company's style guide for the contact manager.</i></p>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h2 class="style-h2">Typography</h2>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <h4>font-family: 'Libre Baskerville', serif;</h4>
+      <h4>font-family: 'Hind', sans-serif;</h4>
+    </div>
 
-<h1>Font Family: Hind, San-serif</h1>
-<h1 class="align-left"><strong>h1:</strong> This is your main heading.</h1>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <h1 class="align-left">Header 1</h1>
+      <span class="text-muted">Font: Libre Baskerville 60px/Color: #000</span>
 
-<h2 class="align-left"><strong>h2:</strong> This is heading 2.</h2>
+      <h2>Header 2</h2>
+      <span class="text-muted">Font: Hind/Color: #000</span>
 
-<h3 class="align-left"><strong>h3:</strong> This is heading 3.</h3>
+      <h3>Header 3</h3>
+      <span class="text-muted">Font: Hind/Color: #000</span>
 
-<p class="align-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h4>Header 4</h4>
+      <span class="text-muted">Font: Hind/Color: #000</span>
+
+      <h5>Header 5</h5>
+      <span class="text-muted">Font: Hind/Color: #000</span>
+
+      <p>Paragraph</p>
+      <span class="text-muted">Font: Hind/Color: #000</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet lacinia ipsum. Aenean congue mauris lacus, et posuere risus accumsan in. Suspendisse eu nibh vel ligula sollicitudin scelerisque sed in urna. Proin nec egestas orci. Vivamus bibendum est non suscipit convallis. Aenean a velit ut nisl malesuada ultrices. Nullam eu congue purus, ac aliquam elit. Praesent sed ipsum molestie elit vehicula laoreet. Curabitur ut ullamcorper elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla luctus sapien, id semper lectus gravida vitae. Mauris blandit nisl eget nibh sollicitudin consectetur.</p>
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h2 class="style-h2">Colors</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h2 class="style-h2">Lists</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h2 class="style-h2">Icons + Buttons</h2>
+  </div>
+</div>
 
 
 

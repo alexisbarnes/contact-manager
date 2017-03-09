@@ -12,7 +12,28 @@ body {
 h1 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
   font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 a {
@@ -143,6 +164,11 @@ textarea.form-control {
   line-height: 64px;
   font-size: 38px;
   font-weight: 300;
+}
+
+/*--STYLE GUIDE--*/
+.style-h2 {
+  border-bottom: 1px solid #ccc;
 }
 
 /*--FOOTER--*/
