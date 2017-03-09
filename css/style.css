@@ -104,6 +104,12 @@ a:hover {
 }
 
 /*--PANEL STYLES--*/
+.panel-default>.panel-heading {
+  background-color: #ccc;
+}
+.icons {
+  float: right;
+}
 
 /*--FORM--*/
 
@@ -115,13 +121,11 @@ textarea.form-control {
 /*--ICONS--*/
 .edit-icon {
   height: 15px;
-  float: right;
 }
 
 .delete-icon {
   height: 15px;
   margin: 5px;
-  float: right;
 }
 
 /*--BUTTONS--*/

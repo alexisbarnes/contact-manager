@@ -27,12 +27,15 @@
 <?php endif; ?>
 
 <?php foreach($contacts as $contact) : ?>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
 <div class="panel panel-default">
   <!-- Default panel contents -->
   <div class="panel-heading">
     <div class="contact-name">
-      <h5><?= $contact['first']; ?> <?=$contact['last']; ?>, <span class="text-muted"><?= $contact['title']; ?></span><a href="/edit.php?id=<?= $contact['id']; ?>"><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
-      <a href="/delete.php?id=<?= $contact['id']; ?>"><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a></h5>
+      <h5><?= $contact['first']; ?> <?=$contact['last']; ?>, <span class="text-muted"><?= $contact['title']; ?></span>
+
+      <span class="icons"><a href="/edit.php?id=<?= $contact['id']; ?>"><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
+      <a href="/delete.php?id=<?= $contact['id']; ?>"><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a></span></h5>
 
     </div>
 
@@ -44,16 +47,15 @@
   <!-- List group -->
   <ul class="list-group">
     <li class="list-group-item">
-      <span><?= $contact['title']; ?></span>
-      <span><?= $contact['address']; ?></span>
-      <span><?= $contact['city']; ?></span>
-      <span><?= $contact['state']; ?></span>
-      <span><?= $contact['zip']; ?></span>
-      <span><?= $contact['notes']; ?></span>
-      <span></span>
-      <span></span>
+      <span>Address: <?= $contact['address']; ?></span><br>
+      <span>City: <?= $contact['city']; ?></span><br>
+      <span>State: <?= $contact['state']; ?></span><br>
+      <span>Zip Code: <?= $contact['zip']; ?></span><br>
+      <span>Notes: <?= $contact['notes']; ?></span>
+
     </li>
   </ul>
+</div>
 </div>
 <?php endforeach; ?>
 
