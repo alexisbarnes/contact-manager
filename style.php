@@ -13,7 +13,7 @@
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <h2 class="style-h2">Typography</h2>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-      <h4>font-family: 'Libre Baskerville', serif;</h4>
+      <h4 class="libre">font-family: 'Libre Baskerville', serif;</h4>
       <h4>font-family: 'Hind', sans-serif;</h4>
     </div>
 
@@ -52,7 +52,7 @@
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-gray1">
+        <div class="box-red">
         </div>
       </div>
 
@@ -64,17 +64,17 @@
 
     <div class="row margin-bottom">
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-teal">
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
         <div class="box-teal2">
         </div>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-red">
+        <div class="box-teal">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-gray1">
         </div>
       </div>
     </div>

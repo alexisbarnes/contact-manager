@@ -31,6 +31,10 @@ h4 {
   font-size: 30px;
 }
 
+.libre {
+  font-family: 'Libre Baskerville', serif;
+}
+
 h5 {
   font-size: 20px;
 }
@@ -262,7 +266,7 @@ textarea.form-control {
   height: 200px;
   width: 200px;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
-  background-color: #870709;
+  background-color: #b30000;
   border-radius: 50%;
 }
 
