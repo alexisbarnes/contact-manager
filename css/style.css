@@ -123,6 +123,11 @@ a:hover {
 .panel-default>.panel-heading {
   background-color: #88B4BA;
 }
+
+.panel-default {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
 .icons {
   float: right;
 }
