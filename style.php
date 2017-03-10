@@ -46,36 +46,73 @@
     <h2 class="style-h2">Colors</h2>
 
     <div class="row margin-bottom">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-red">
-        </div>
+      <!--RED BOX IPAD + DESKTOP-->
+      <div class="hidden-xs col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-red"></div>
+        <h4 class="color">#B30000</h4>
+      </div>
+      <!--MOBILE-->
+      <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl">
+        <div class="box-red-sm"></div>
+        <p class="color-sm">#4DA6B2</p>
       </div>
 
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-gray2">
-        </div>
+      <!--GRAY BOX IPAD + DESKTOP-->
+      <div class="hidden-xs col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-gray2"></div>
+        <h4 class="color">#474747</h4>
       </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-white">
-        </div>
+      <!--MOBILE-->
+      <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl">
+        <div class="box-gray2-sm"></div>
+        <p class="color-sm">#474747</p>
+      </div>
+      <!--WHITE/BLACK IPAD + DESKTOP-->
+      <div class="hidden-xs col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-white"></div>
+        <h4 class="color">#FFF + #000</h4>
+      </div>
+      <!--MOBILE-->
+      <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl">
+        <div class="box-white-sm"></div>
+        <p class="color-sm">#FFF + #000</p>
       </div>
     </div>
 
     <div class="row margin-bottom">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-teal">
-        </div>
+      <!--TEAL IPAD + DESKTOP-->
+      <div class="hidden-xs col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-teal"></div>
+        <h4 class="color">#4DA6B2</h4>
+      </div>
+      <!--MOBLILE-->
+      <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl">
+        <div class="box-teal-sm"></div>
+        <p class="color-sm">#4DA6B2</p>
       </div>
 
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-teal2">
-        </div>
+      <!--TEAL 2 IPAD + DESKTOP-->
+      <div class="hidden-xs col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-teal2"></div>
+        <h4 class="color">#88B4BA</h4>
       </div>
 
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-gray1">
-        </div>
+      <!--MOBILE-->
+      <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl">
+        <div class="box-teal2-sm"></div>
+        <p class="color-sm">#88B4BA</p>
+      </div>
+
+      <!--GRAY IPAD + DESKTOP-->
+      <div class="hidden-xs col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-gray1"></div>
+        <h4 class="color">#CCCCCC</h4>
+      </div>
+
+      <!--MOBILE-->
+      <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl">
+        <div class="box-gray1-sm"></div>
+        <p class="color-sm">#CCCCCC</p>
       </div>
     </div>
   </div>
