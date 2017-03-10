@@ -2,7 +2,7 @@
 
 > This is a contact manger created using PHP and MySQL.
 
-[Personal Portfolio Site](https://www.alexisbarnes.com)
+[Personal Portfolio Site](http://www.alexisbarnes.com)
 
 ## To install:
 
