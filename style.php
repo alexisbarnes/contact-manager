@@ -47,11 +47,6 @@
 
     <div class="row margin-bottom">
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-white">
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
         <div class="box-red">
         </div>
       </div>
@@ -60,16 +55,21 @@
         <div class="box-gray2">
         </div>
       </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="box-white">
+        </div>
+      </div>
     </div>
 
     <div class="row margin-bottom">
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-teal2">
+        <div class="box-teal">
         </div>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <div class="box-teal">
+        <div class="box-teal2">
         </div>
       </div>
 
