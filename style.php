@@ -70,12 +70,12 @@
       <!--WHITE/BLACK IPAD + DESKTOP-->
       <div class="hidden-xs col-sm-4 col-md-4 col-lg-4 col-xl-4">
         <div class="box-white"></div>
-        <h4 class="color">#FFF + #000</h4>
+        <h4 class="color">#000 + #FFF</h4>
       </div>
       <!--MOBILE-->
       <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl">
         <div class="box-white-sm"></div>
-        <p class="color-sm">#FFF + #000</p>
+        <p class="color-sm">#000 + #FFF</p>
       </div>
     </div>
 
@@ -161,6 +161,27 @@
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <h2 class="style-h2">Icons + Buttons</h2>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 primary-btns">
+      <button class="btn btn-xs btn-style-primary">X-small Button</button>
+      <button class="btn btn-sm btn-style-primary">Small Button</button>
+      <button class="btn btn-md btn-style-primary">Medium Button</button>
+      <button class="btn btn-lg btn-style-primary">Large Button</button>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-21 danger-btns">
+      <button class="btn btn-xs btn-style-danger">X-small Button</button>
+      <button class="btn btn-sm btn-style-danger">Small Button</button>
+      <button class="btn btn-md btn-style-danger">Medium Button</button>
+      <button class="btn btn-md btn-style-danger">Large Button</button>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 icons-style">
+      <img src="/imgs/pencil.png" alt="edit" class="edit-style" />
+
+      <img src="/imgs/x.png" alt="delete" class="delete-style" />
+
+      <div class="mobile-create"><p class="plus-style">+</p></div>
+    </div>
   </div>
 </div>
 

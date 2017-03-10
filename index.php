@@ -43,9 +43,6 @@
 
     </div>
 
-
-
-
   </div>
 
   <!-- List group -->
@@ -85,42 +82,6 @@
 </div>
 <?php endforeach; ?>
 
-
-<!-- <h1>Contacts</h1>
-<h4 class="total-contacts"></h4>
-  <div class="table-responsive">
-    <table class="table table-hover table-bordered">
-      <thead class="thead-inverse">
-        <th class="table-header">First Name</th>
-        <th class="table-header">Last Name</th>
-        <th class="table-header visible-sm visible-md visible-lg visible-lg">Title</th>
-        <th class="table-header visible-md visible-lg visible-lg">Address</th>
-        <th class="table-header visible-md visible-lg visible-lg">City</th>
-        <th class="table-header visible-md visible-lg visible-lg">State</th>
-        <th class="table-header visible-md visible-lg visible-lg">Zip Code</th>
-        <th class="table-header">Phone Number</th>
-        <th class="table-header visible-md visible-lg visible-lg">Notes</th>
-        <th class="table-header">Actions</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td></td>
-          <td></td>
-          <td class="visible-sm visible-md visible-lg visible-lg"></td>
-          <td class="visible-md visible-lg visible-lg"></td>
-          <td class="visible-md visible-lg visible-lg"></td>
-          <td class="visible-md visible-lg visible-lg"></td>
-          <td class="visible-md visible-lg visible-lg"></td>
-          <td></td>
-          <td class="visible-md visible-lg visible-lg"></td>
-          <td>
-            <a href="/edit.php?id="><img src="/imgs/pencil.png" alt="edit" class="edit-icon" /></a>
-            <a href="/delete.php?id="><img src="/imgs/x.png" alt="delete" class="delete-icon" /></a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div> -->
 
 <!--Add New button for mobile-->
 <!--Source: https://codepen.io/simoberny/pen/pJZJQY-->
