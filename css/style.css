@@ -262,6 +262,7 @@ textarea.form-control {
 .link-style {
   font-size: 18px;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 .link-style:hover {
@@ -338,12 +339,6 @@ textarea.form-control {
   border-radius: 50%;
 }
 
-/*.box-red:hover .color-hover {
-  display: block;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}*/
 
 /*---BOXES MOBILE--*/
 .color-sm {

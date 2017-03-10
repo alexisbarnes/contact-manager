@@ -1,6 +1,6 @@
 # Contact Manager
 
-> This is a contact manger, using PHP and MySQL.
+> This is a contact manger created using PHP and MySQL.
 
 [Personal Portfolio Site](https://www.alexisbarnes.com)
 
@@ -8,4 +8,4 @@
 
 >1. Clone this repository
 
->2. Set up a local Apache and SQL server on localhost:8080. 
+>2. Set up a local Apache and SQL server on localhost:8080.
