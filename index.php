@@ -31,7 +31,7 @@
 </div>
 
 <?php foreach($contacts as $contact) : ?>
-<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 <div class="panel panel-default">
   <!-- Default panel contents -->
   <div class="panel-heading">
