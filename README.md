@@ -1,5 +1,11 @@
 # Contact Manager
 
-> This is a contact manager.
+> This is a contact manger, using PHP and MySQL.
 
-[By Alexis Barnes](https://www.alexisbarnes.com)
+[Personal Portfolio Site](https://www.alexisbarnes.com)
+
+## To install:
+
+>1. Clone this repository
+
+>2. Set up a local Apache and SQL server on localhost:8080. 

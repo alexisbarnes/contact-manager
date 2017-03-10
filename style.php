@@ -37,6 +37,10 @@
       <span class="text-muted">Font: Hind/Color: #000</span>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet lacinia ipsum. Aenean congue mauris lacus, et posuere risus accumsan in. Suspendisse eu nibh vel ligula sollicitudin scelerisque sed in urna. Proin nec egestas orci. Vivamus bibendum est non suscipit convallis. Aenean a velit ut nisl malesuada ultrices. Nullam eu congue purus, ac aliquam elit. Praesent sed ipsum molestie elit vehicula laoreet. Curabitur ut ullamcorper elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla luctus sapien, id semper lectus gravida vitae. Mauris blandit nisl eget nibh sollicitudin consectetur.</p>
 
+      <p>Links</p>
+      <span class="text-muted">Font: Hind/Color: #4DA6B2</span><br>
+      <a href="#" class="link-style">This is a link.</a>
+
     </div>
   </div>
 </div>

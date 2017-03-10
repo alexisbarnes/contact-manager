@@ -49,7 +49,8 @@ li {
 }
 
 a {
-  color: #4da6b2
+  color: #4da6b2;
+  font-size: 18px;
 }
 
 a:hover {
@@ -256,6 +257,15 @@ textarea.form-control {
 /*-----STYLE GUIDE------*/
 .style-h2 {
   border-bottom: 1px solid #ccc;
+}
+
+.link-style {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.link-style:hover {
+  text-decoration: none;
 }
 
 /*--COLORS--*/
